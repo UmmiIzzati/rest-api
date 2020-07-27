@@ -19,7 +19,7 @@ router.get('/', (req,res)=>{
 	res.json({message:"Yahoooo yeayyy! my API works!!!"})
 })
 router.get('/hello', (req,res)=>{
-	res.json({message:'Hello World!'});
+	res.json({message:'Hello Ummi!'});
 })
 
 router.get('/goodbye/:name', (req,res)=>{
